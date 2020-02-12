@@ -9,7 +9,7 @@ import random
 from sq_relation_dataset import SQdataset
 from relation_prediction import RelationPrediction
 
-np.set_printoptions(threshold=np.nan)
+# np.set_printoptions(threshold=np.nan)
 # Set default configuration in : args.py
 args = get_args()
 

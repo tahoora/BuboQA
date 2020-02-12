@@ -73,6 +73,7 @@ else:
 
 model.embed.weight.data.copy_(TEXT.vocab.vectors)
 if args.cuda:
+    print(args.gpu)
     modle = model.to(torch.device("cuda:{}".format(args.gpu)))
     print("Shift model to GPU")
 
